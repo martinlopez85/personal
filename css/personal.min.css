@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+.navbar {
+	min-height: 50px;
+	border-top: 5px solid #00b0ea;
+	box-shadow: 0 4px 4px hsla(0,0%,39.6%,.2);
+	background-color: #FFF;
+}
+.navbar img {
+	display: block;
+	padding-top: 18px;
+}
+.navbar img.secure {
+	padding-top: 9px;
+}
+.personal-container {
+	flex-direction: column;
+}
+.personal-box {
+	background-color: #FFF;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+p.title {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #555;
+}
+p.subtitle {
+	font-family: 'Roboto';
+	color: #555;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+}
+h3.title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	align-items: center;
+	color: #333;
+}
+h4.title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	align-items: center;
+	color: #333;
+}
+h5.title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	align-items: center;
+	color: #333;
+}
+.description {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	align-items: center;
+	color: #555;
+	width: 100%;
+	display: block;
+}
+.help-text {
+	color: #555;
+}
+.alert {
+	text-align: center;
+}
+.alert-promotion {
+	color: #555;
+}
+.alert-info {
+	height: auto;
+	background: #212121;
+	border: 1px solid #212121;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+.alert-error {
+	height: auto;
+	border: 1px solid #c33;
+	background: #f9eaea;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+.btn {
+	height: 40px;
+	font-family: 'roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	padding: .5em 2.5em;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #0081b7;
+	border-color: #0081b7;
+	border: 0;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	border-radius: 0px;
+	margin-bottom: 1em;
+}
+a {
+	color: #00b0ea;
+	text-decoration: none;
+}
+a:hover {
+	color: #0069d9;
+	text-decoration: none;
+}
+.form-control {
+	border-radius: 0;
+	height: 32px;
+	font-size: 13px;
+	line-height: 1.428571429;
+	padding: 6px 12px;
+	display: block;
+}
+.label-input {
+	font-size: 14px;
+	color: #555;
+	font-weight: 500;
+	font-family: 'Roboto';
+	margin-bottom: 0;
+}
+.promotion-offert {
+	display: flex;
+	justify-content: center;
+}
+.promotion-offert p {
+	margin: 0;
+}
+.wellblack {
+	background-color: #555;
+}
+.wellblack img {
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	display: block;
+}
+.btn-disabled,
+.btn-disabled:hover,
+.btn-disabled:active,
+.btn-disabled:focus {
+	outline: none;
+	color: #fff;
+	background-color: #ccc;
+	border-color: #ccc;
+}
+.ng-cards img {
+	display: block;
+	margin: 0 auto;
+}
+.ng-name img {
+	height: 175px;
+	width: 310px;
+}
+.card-icon {
+    background: url("data:image/svg+xml;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAfCAYAAABtYXSPAAABA0lEQVRYhe2Wu46EMAxF5/PduQtdutClS76Av6ALnTuXdHerIGAU7bDybGZXHOkWBhGO8jA88EE8egvsuWVa3DItmjIighgjxnE0TYwRInJNxjmHEAKmaTKN9x7DMFyTISKUUtpz+g2qimVZttTZKKWAiH5XhplBRIeISB+Z8/O17ibjvd82bleZeZ6fNu+6rn1kWvw/Gefc4VRcqfd9xURmf0TrgK/W+5ebyKSUEEJAjBGq+nIdQkBKyVbGCvNlqoOllJ6un5flLTKqujUtVQWArW+cU++/TcaKH8kwM3LOhy+vRXLOYOZrMqWUQ6+winOuOeN/47ezB7dMi1umxUfJfAEFrwTg5xpXCAAAAABJRU5ErkJggg==") no-repeat scroll 97%;
+}
+.loading {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999999999;
+}
+.loading svg {
+	max-height: 4em;
+}
+.front_card {
+	margin: 0 auto;
+	display: block;
+	border-radius: .5em;
+}
+.cardicon {
+	width: 70px;
+	height: 70px;
+	display: block;
+	margin: 0 auto;
+}
+
+.alldata {}
+.alldata li {
+	text-align: left;
+	color: #FFF;
+	font-size: 14px;
+	font-family: Roboto;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.securityssl img {
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+.securityssl p {
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0 0 0 12px;
+	text-align: left;
+	color: #fff;
+	vertical-align: middle;
+}
